@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@astrojs/image": "^0.7.0",
+    "astro": "^1.2.3",
+    "sass": "^1.54.9"
+  }
+}

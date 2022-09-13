@@ -1,0 +1,48 @@
+---
+import Body from "../layouts/Body.astro";
+import Style from "../styles/home.module.scss";
+import { Image } from "@astrojs/image/components";
+---
+
+<Body>
+    <header id={Style.header}>
+        <div id={Style.text_container}>
+            <h1><span id={Style.yellow}>Xadrez</span>-<span id={Style.red}>boxe</span>: Um esporte inusitado que junta boxe e xadrez</h1>
+        </div>
+    </header>
+    <main id={Style.main}>
+        <p>O xadrez-boxe, também conhecido como "chessboxing" é um daqueles esportes inusitados, onde os participantes utilizam força e inteligência para vencer.</p>
+        <br />
+        <p>Em 1992, o artista Holandês Iepe Rubingh teve a ideia de criar um esporte juntando duas disciplinas incomuns: o xadrez e o boxe.</p>
+        <p>A ideia surgiu apartir de uma revista em quadrinhos de Enki Bilal que retrata um campeonato mundial de Chessboxing. A história da revista surgiu apartir do conceito desenvolvido no filme kung fu de 1979 chamado <i>Mystery of chessboxing</i>.</p>
+        <p>Acredita-se que Rubingh tenha se inspirado no hábito dos irmãos Robinson, que jogavam uma partida de xadrez depois do treino no seu clube de boxe no final da década de 1970.</p>
+        <br />
+        <p>Porém, na versão em quadrinhos, os oponentes primeiro se enfrentavam em uma luta inteira de boxe antes de se enfrentarem em uma de xadrez, Rubingh que achava isso nada prático, desenvolveu outras ideias para o Chessboxing, deixando-o mais competitivo e difícil.</p>
+        <h2>As regras do Chessboxing</h2>
+        <Image 
+            src="/xadrez.png"
+            alt="Peça de xadrez com luvas de boxe, imagem gerada por uma inteligência artificial."
+            width={450}
+            height={400}
+            quality={100}
+            class={Style.image}
+        />
+        <div>Curiosidade: Essa imagem foi gerada por uma inteligência artificial</div>
+        <br />
+        <p>O esporte possui 11 rodadas alternadas, sempre começando e terminando com xadrez, a duração de cada rodada é, aproximadamente, 3 minutos, seguida por 1 minuto de intervalo. As rodadas ficam sob controle de tempo, cada jogador tem 9 minutos sem nenhum adicional apartir do momento em que o primeiro movimento é feito.</p>
+        <br />
+        <p>Uma partida pode terminar quando houver um nocaute ou nocaute técnico no boxe, um cheque-mate no xadrez, perda por exercer o controle do tempo no xadrez ou perda por desistência em qualquer disciplina.</p>
+        <p>Se o jogo de xadrez terminar empatado antes da rodada final, é feita uma rodada de boxe para determinar quem será o vencedor. Se o boxe também terminar em empate, vence quem ganhou mais pontos. Caso todos esses terminem em empate, quem está jogando com as peças pretas será o vencedor por não ter a vantagem do primeiro movimento no xadrez.</p>
+        <h2>A primeira partida de Chessboxing</h2>
+        <Image 
+            src="/iepe.jpg"
+            alt="Foto de Iepe Rubingh."
+            width={500}
+            height={300}
+            quality={100}
+            class={Style.image}
+        /> 
+        <br />
+        <p>A primeira competição aconteceu em 2003, em Berlim, na Alemanha. Com a cooperação da Associação Holandesa de boxe, Federação Holandesa de xadrez e a Organização Mundial de Boxe de Xadrez, a primeira luta pelo campeonato mundial aconteceu em Amsterdã, onde Iepe Rubingh enfrentou Jean Louis no ringue e saiu com a vitória.</p>
+    </main>
+</Body>

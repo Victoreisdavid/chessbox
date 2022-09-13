@@ -1,0 +1,12 @@
+@use "variables";
+
+#footer {
+    background-color: variables.$dark-color;
+
+    * {
+        color: variables.$light-color;
+        font-size: 0.9em;
+    }
+
+    padding: 10px;
+}

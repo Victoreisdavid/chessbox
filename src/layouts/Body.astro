@@ -1,0 +1,21 @@
+---
+import "../styles/global.scss";
+
+import Footer from "./Footer.astro";
+---
+
+<html lang="pt-br">
+    <head>
+        <title>Chessbox - O que é?</title>
+        <meta charset="utf-8" />
+        <meta name="author" content="Victor Reis David" />
+        <meta name="description" content="Você já ouviu falar em chessbox? se não, bora conhecer!" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    </head>
+    <body>
+        <div id="container">
+            <slot />
+        </div>
+        <Footer />
+    </body>
+</html>

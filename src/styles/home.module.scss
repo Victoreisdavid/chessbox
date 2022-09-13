@@ -1,0 +1,50 @@
+@use "variables";
+
+#header {
+    background: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.959) 80%), url("/boxe.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 90vh;
+
+    color: variables.$light-color;
+
+    #text_container {
+        padding: 75vh 30px 30px 30px;
+
+        h1 {
+            font-size: 2.7em;
+        }
+    }
+
+    #yellow {
+        color: variables.$mid-color;
+    }
+
+    #red {
+        color: variables.$brand-color;
+    }
+
+    margin-bottom: 30px;
+}
+
+#main {
+    * {
+        color: variables.$text-color;
+    }
+
+    max-width: 1024px;
+    padding: 20px;
+    text-align: justify;
+    margin: auto;
+
+    h2 {
+        color: variables.$text-dark-color;
+        margin: 10px 0px 15px 0px;
+    }
+
+    .image {
+        max-width: 100%;
+        height: auto;
+    }
+
+}

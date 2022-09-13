@@ -1,0 +1,23 @@
+@use "variables";
+
+* {
+    font-family: variables.$font;
+    margin: 0px;
+}
+
+#container {
+    min-height: calc(100vh - 50px);
+    margin-bottom: 50px;
+}
+
+body {
+    background-color: variables.$light-color;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1.15em;
+}
